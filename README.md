@@ -3,7 +3,7 @@
 **Installation Guide**
 
 `
-git clone https://github.com/MaxGoh/vim-demo;  
+git clone https://github.com/MaxGoh/vim-demo;
 cd ./vim-demo; sh ./install.sh;
 `
 
@@ -21,3 +21,7 @@ press `<F5>` inside VIM to open the cheatsheet
 - [Vundle](https://github.com/VundleVim/Vundle.vim)
 - [NeoBundle](https://github.com/Shougo/neobundle.vim)
 - [Vim-Plug](https://github.com/junegunn/vim-plug)
+
+**Plugins**
+
+- [VimAwesome](https://vimawesome.com)
