@@ -3,7 +3,7 @@
 **Installation Guide**
 
 ```
-git clone https://github.com/MaxGoh/vim-demo;
+git clone https://github.com/MaxGoh/vim-demo
 cd ./vim-demo && sh ./setup.sh;
 ```
 
