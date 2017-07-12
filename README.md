@@ -4,7 +4,7 @@
 
 ```
 git clone https://github.com/MaxGoh/vim-demo
-cd ./vim-demo && sh ./setup.sh;
+cd ./vim-demo && sh ./setup.sh
 ```
 
 **Helpfile**
