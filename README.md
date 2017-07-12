@@ -9,7 +9,7 @@ cd ./vim-demo && sh ./setup.sh;
 
 **Helpfile**
 
-- [Vim Cheatsheet](https://vim.rtorr.com/)
+[Vim Cheatsheet](https://vim.rtorr.com/)
 
 **References**
 
