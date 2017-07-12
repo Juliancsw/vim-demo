@@ -1,6 +1,6 @@
 nnoremap <F12>:vsp ./cheatsheet.txt   "Open Cheatsheet for reference
 
-set nocompatible        " don't use old settings that vi used.  
+set nocompatible        " don't use old settings that vi used.
 						" Use the newer features that vim offers
 
 vnoremap > >gv          "Shift code block multiple times
@@ -39,10 +39,6 @@ inoremap jk <esc>
 
 " edit vimrc/zshrc and load vimrc bindings
 nnoremap <leader>ev :vsp $MYVIMRC<CR>
-nnoremap <leader>eb :vsp $VIMBASIC<CR>
-nnoremap <leader>ep :vsp $VIMPLUGIN<CR>
-nnoremap <leader>ez :vsp ~/.zshrc<CR>
-nnoremap <leader>sv :source $MYVIMRC<CR>
 
 set backspace=2       	" make backspace able to go over end of lines
 set laststatus=2    	" always show the status line
@@ -60,8 +56,8 @@ set lazyredraw          " redraw only when we need to.
 set showmatch           " highlight matching [{()}]
 
 " Clipboard
-"set paste
-"set pastetoggle=<F2>
+set paste
+set pastetoggle=<F2>
 set mouse=a
 set clipboard=unnamedplus   " Register clipboard to share copy and paste with system's clipboard
 
@@ -86,7 +82,7 @@ set guifont=Droid\ Sans\ Mono\ for\ Powerline\ Plus\ Nerd\ File\ Types:h11
 
 " give us nice EOL (end of line) characters
 set list
-"set listchars=tab:▸\ ,eol:¬
+set listchars=tab:▸\ ,eol:¬
 
 set nowrap        " don't wrap lines
 set tabstop=4     " a tab is four spaces
