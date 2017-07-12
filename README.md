@@ -7,10 +7,9 @@ git clone https://github.com/MaxGoh/vim-demo;
 cd ./vim-demo && sh ./setup.sh;
 ```
 
-
 **Helpfile**
 
-press `<F5>` inside VIM to open the cheatsheet
+- [Vim Cheatsheet](https://vim.rtorr.com/)
 
 **References**
 
